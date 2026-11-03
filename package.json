@@ -1,0 +1,23 @@
+{
+  "name": "support-rag",
+  "version": "1.0.0",
+  "description": "Small retrieval-augmented support assistant in TypeScript: chunking, vector search, grounded answers with citations, and a retrieval eval. Runs offline by default.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "ingest": "tsx src/cli.ts ingest",
+    "ask": "tsx src/cli.ts ask",
+    "eval": "tsx src/cli.ts eval",
+    "serve": "tsx src/server.ts",
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

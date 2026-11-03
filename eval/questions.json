@@ -1,0 +1,20 @@
+[
+  { "question": "How long does standard delivery take?", "expectedSource": "shipping.md" },
+  { "question": "Is shipping free if I spend enough?", "expectedSource": "shipping.md" },
+  { "question": "Do you deliver to Canada?", "expectedSource": "shipping.md" },
+  { "question": "My package hasn't moved in a week, what now?", "expectedSource": "shipping.md" },
+  { "question": "Can I send back something I opened?", "expectedSource": "returns.md" },
+  { "question": "When will I get my money back after returning an item?", "expectedSource": "returns.md" },
+  { "question": "I received the wrong product, what should I do?", "expectedSource": "returns.md" },
+  { "question": "How many years of warranty do your amplifiers have?", "expectedSource": "warranty.md" },
+  { "question": "Does water damage count under the warranty?", "expectedSource": "warranty.md" },
+  { "question": "How do I know a head unit will fit my car?", "expectedSource": "installation-and-fitment.md" },
+  { "question": "How much does it cost to have a subwoofer installed?", "expectedSource": "installation-and-fitment.md" },
+  { "question": "Which payment cards do you take?", "expectedSource": "orders-and-payments.md" },
+  { "question": "Can I use two discount codes on one order?", "expectedSource": "orders-and-payments.md" },
+  { "question": "I forgot my password", "expectedSource": "account-and-support.md" },
+  { "question": "What hours is customer support open?", "expectedSource": "account-and-support.md" },
+  { "question": "Do you sell electric bicycles?", "expectedSource": null },
+  { "question": "Who won the football match last night?", "expectedSource": null },
+  { "question": "Write me a poem about the ocean", "expectedSource": null }
+]
